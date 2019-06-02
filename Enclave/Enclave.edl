@@ -1,0 +1,14 @@
+enclave
+{
+	trusted
+	{
+		/*These are ECALL defines.*/
+		public int ecall_test([in, size=message_len]const char *message,
+			size_t message_len);
+	};
+	untrusted
+	{
+		/*These are OCALL defines.*/
+		void ocall_print([in, string]const char *str);
+	};
+};
