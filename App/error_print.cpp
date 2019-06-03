@@ -1,6 +1,3 @@
-#include <iostream>
-#include "sgx_error.h"
-
 #include "error_print.h"
 
 void sgx_error_print(sgx_status_t status)
