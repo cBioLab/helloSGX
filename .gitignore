@@ -1,1 +1,6 @@
-enclave.token
+enclave.*
+app
+App/*.o
+App/Enclave_u.*
+Enclave/*.o
+Enclave/Enclave_t.*
